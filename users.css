@@ -1,0 +1,108 @@
+/* CSS for Add User Form */
+form.add-user-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-user-form h1 {
+    text-align: center;
+  }
+  
+  .add-user-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-user-form input[type="text"],
+  .add-user-form input[type="password"],
+  .add-user-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-user-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-user-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* CSS for Remove User Form */
+  form.remove-user-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .remove-user-form h1 {
+    text-align: center;
+  }
+  
+  .remove-user-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .remove-user-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .remove-user-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .remove-user-form input[type="submit"]:hover {
+    background-color: #e53935;
+  }
+  
+  /* CSS for Update User Form */
+  form.update-user-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .update-user-form h1 {
+    text-align: center;
+  }
+  
+  .update-user-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .update-user-form input[type="text"],
+  .update-user-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .update-user-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .update-user-form input[type="submit"]:hover {
+    background-color: #1976d2;
+  }
+  

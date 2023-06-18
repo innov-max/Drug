@@ -1,0 +1,78 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+h1[name="title"] {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color: #333;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.user-box {
+  margin-bottom: 20px;
+}
+
+.user-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.user-box input[type="email"],
+.user-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.log-in-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.log-in-btn:hover {
+  background-color: #0056b3;
+}
+
+.center {
+  text-align: center;
+}
