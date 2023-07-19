@@ -4,41 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel</title>
-    <style>
-        .admin-panel {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 20px;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 40px;
-        }
-
-        .admin-panel button {
-            display: block;
-            width: 100%;
-            height: 100px;
-            font-size: 18px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .admin-panel button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="admin2.css">
+    <title>DRUGFY</title>
 </head>
 <body>
-    <h1>Admin panel</h1>
-    <div class="admin-panel">
-        <a href="add_user.php"><button>Add User</button></a>
-        <a href="remove_user.php"><button>Remove User</button></a>
-        <a href="update_user.php"><button>Update User</button></a>
-        <a href="logout.html"><button>Logout</button></a>
-        <!-- Add more buttons for additional operations -->
-    </div>
+    <section class="side-menu">
+        <div class="brand-name">
+            <h1>DRUGFY</h1>
+        </div>
+        <ul class="role-list">
+            <li><a href="#"><i class="fab fa-bandcamp"></i> Dashboard</a></li>
+            <li><a href="http://localhost/Medease/dmadmin.php"><i class="fas fa-user-tie"></i> D. Managers</a></li>
+            <li><a href="http://localhost/Medease/dadmin.php"><i class="fas fa-user-md"></i> Doctors</a></li>
+            <li><a href="http://localhost/Medease/nadmin.php"><i class="fas fa-user-nurse"></i> Nurses</a></li>
+            <li><a href="http://localhost/Medease/radmin.php"><i class="fas fa-user-check"></i> Receptionists</a></li>
+            <li><a href="http://localhost/Medease/phadmin.php"><i class="fas fa-user-md"></i> Pharmacists</a></li>
+            <li><a href="http://localhost/Medease/pdisplay.php"><i class="fas fa-user-circle"></i> Patients</a></li>
+        </ul>
+    </section>
+
+    
+
+    
 </body>
 </html>

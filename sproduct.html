@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="index.css">
+    <title>MedEase</title>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="logo7.jpg" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="services.html">Servises</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="http://localhost/Medease/login.php">Login</a></li>
+                <li><a href="http://localhost/Medease/psignup.php">Sign Up</a></li>
+                <li id="lg-bag"><a href="medease.html"><i class="fab fa-user-nurse"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="dep1.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="dep2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="dep2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="dep2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="dep2.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h3>Neurology Manager</h3>
+            <h2>Cristiano Ronaldo</h2>
+
+            <h4>Manager Details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod libero repellat distinctio culpa quidem molestias accusamus itaque accusantium aperiam autem labore, voluptatibus eveniet, nobis expedita temporibus magni architecto quis. Placeat!</span><br><br>
+            <button class="normal">Return</button>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 ">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates on Health Promotion and <span>Disease Awareness</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="logo2.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>489 Kitusuri Road, Street 77, Nairobi</p>
+            <p><strong>Phone: </strong> +254 797 093 831 /(020) 01 1436 1483</p>
+            <p><strong>Hours: </strong> 24/7, Including Holidays</p>
+            <div class="follow">
+                <h4>Follow us:</h4>
+                <div class="icon">
+                    <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://web.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+   
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
