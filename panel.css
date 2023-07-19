@@ -1,0 +1,33 @@
+
+#form  {
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+#form label{
+    margin:.4em auto ;
+    color:#130f0f;
+}
+
+#form input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-color: black;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#form button {
+    background-color: #791597;
+    color: #fff;
+    margin-top: 1%;
+}
+
+#form button:hover {
+    background-color: #088178;
+    color: #fff;
+}

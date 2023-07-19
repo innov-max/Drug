@@ -1,0 +1,164 @@
+/* Reset some default styles */
+body, ul, li, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #81e1f2;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    background-color: #bec1c1;
+    padding: 10px;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: hsl(212, 86%, 31%);
+}
+
+.navbar li a.active::after,
+.navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: hsl(212, 86%, 31%);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin-left: 30px;
+}
+
+.side-menu {
+    flex: 0 0 20vw;
+    background: #81e1f2;
+    padding: 0px;
+    border-right: 1px solid #ccc;
+}
+
+.brand-name h1 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.role-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.role-list li {
+    margin-bottom: 10px;
+}
+
+.role-list a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.role-list a:hover {
+    background-color: #ac9a9a;
+}
+
+.role-list i {
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.data-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.data-card {
+    width: calc(30% - 20px);
+    background-color: #fff;
+    padding: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.data-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.data-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer button:hover{
+    background-color: #088178;
+    color: #fff;
+}

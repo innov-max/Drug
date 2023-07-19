@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+}
+
+.side-menu {
+    background: #CCF281;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.role-list {
+    list-style: none;
+    padding: 20px;
+}
+
+.role-list li {
+    margin-bottom: 10px;
+}
+
+.role-list a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #4932D5;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.role-list a:hover {
+    background-color: #4932D5;
+    color: #fff;
+}
+
+.role-list i {
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+}
+
+.header {
+    background: #fff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section h1 {
+    margin-left: 10px;
+}
+
+.data-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.data-card {
+    width: calc(33.33% - 20px);
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.data-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.data-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.data-card h3 {
+    font-size: 18px;
+}
+
