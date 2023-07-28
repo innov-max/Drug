@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="logo6.jpg">
+    <title>DRUGFY</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <h1>DRUGFY ADMIN CONSOLE</h1>
+
+    <div class="container">
+        <div class="form-section">
+            <h2>Add Doctor:</h2>
+            <form action="" method="POST">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" name="first_name" id="first_name" required><br>
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" name="last_name" id="last_name" required><br>    
+            <label for="date_of_employment">Date:</label><br>
+            <input type="date" name="date_of_employment" id="date_of_employment" required><br>
+            <label for="department">Department:</label><br>
+            <input type="text" name="department" id="department" required><br>
+            <label for="speciality">Speciality:</label><br>
+            <input type="text" name="speciality" id="speciality" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label for="pnumber">Phone Number:</label><br>
+            <input type="number" name="pnumber" id="pnumber" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password" required><br>
+            <br>
+            <input type="submit" name="edit" value="Add Doctors">
+            </form>
+        </div>
+
+    
+    <div class="form-section">
+        <h2>Edit Doctor:</h2>
+        <form action="" method="POST">
+            <form action="" method="POST">
+                <label for="id">Doctor ID:</label><br>
+                <input type="text" name="id" id="id" required><br>
+                <label for="first_name">First Name:</label><br>
+                <input type="text" name="first_name" id="first_name" required><br>
+                <label for="last_name">Last Name:</label><br>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <label for="department">Department:</label><br>
+                <input type="text" name="department" id="department" required><br>
+                <label for="speciality">Speciality:</label><br>
+                <input type="text" name="speciality" id="speciality" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="pnumber">Phone Number:</label><br>
+                <input type="number" name="pnumber" id="pnumber" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" id="password" required><br>
+                <br>
+                <input type="submit" name="edit" value="Edit Doctor">
+            </form>
+        </form>
+    </div>
+
+    <div class="form-section">
+        <h2>Delete Doctor:</h2>
+        <form action="" method="POST">
+            <label for="id">Doctor ID:</label><br>
+            <input type="text" name="id" id="id" required><br>
+            <label for="name">Manager Full Name:</label><br>
+            <input type="text" name="name" id="name" required><br>
+            <br>
+            <input type="submit" name="delete" value="Delete Doctor">
+        </form>
+
+    </div>
+</div>
+</body>
+</html>
